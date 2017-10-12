@@ -1,3 +1,3 @@
 def square_array(array)
-  array.collect { |element| element * element}
+  square_array = array.collect { |element| element * element}
 end
